@@ -1,9 +1,11 @@
+import sys
 import webbrowser
 
 from distutils.core import setup
 
 
-webbrowser.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+if sys.argv[1] == 'install':
+    webbrowser.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
 
 
 setup(name='rickroll',
