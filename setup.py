@@ -7,9 +7,9 @@ webbrowser.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
 
 
 setup(name='rickroll',
-      version='1.0',
+      version='1.1',
       description="The Python module that's never gonna give you up.",
-      long_description="The Python module that's never gonna give you up.",
+      long_description="The Python module that's never gonna let you down",
       author='James Bennett',
       author_email='james@b-list.org',
       url='https://github.com/ubernostrum/rickroll',
