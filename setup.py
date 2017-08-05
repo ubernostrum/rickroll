@@ -4,14 +4,14 @@ import webbrowser
 from distutils.core import setup
 
 
-if sys.argv[1] == 'install':
+if sys.argv[1] in ('install', 'build', 'sdist', 'bdist_wheel'):
     webbrowser.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
 
 
 setup(name='rickroll',
-      version='1.1',
+      version='1.2',
       description="The Python module that's never gonna give you up.",
-      long_description="The Python module that's never gonna let you down",
+      long_description="The Python module that's never gonna let you down.",
       author='James Bennett',
       author_email='james@b-list.org',
       url='https://github.com/ubernostrum/rickroll',
@@ -28,6 +28,7 @@ setup(name='rickroll',
                    'Programming Language :: Python :: 3.3',
                    'Programming Language :: Python :: 3.4',
                    'Programming Language :: Python :: 3.5',
+                   'Programming Language :: Python :: 3.6',
                    'Topic :: Internet',
                    'Topic :: Sociology'],
       )
